@@ -6,6 +6,8 @@ firestore cloud functions. Case #3 below with firebase emulators:start is the on
 (This is not about connecting to a local firestore emulator, that works ok if a Firestore
 instance is created directly and the admin.firestore() is not used.)
 
+See [firebase-tools/issue#1412](https://github.com/firebase/firebase-tools/issues/1412)
+
 ### 1. OK firebase deploy
 Sanity check, make sure everything works when deployed.
 ```

@@ -57,6 +57,6 @@ With or Without GOOGLE_APPLICATION_CREDENTIALS set:
 This is likely caused by the emulator explicitly setting GOOGLE_APPLICATION_CREDENTIALS to "" in functionsEmulatorRuntime.
 https://github.com/firebase/firebase-tools/blob/589387b79a9c07f4811ab35201ced1bb84e66e72/src/emulator/functionsEmulatorRuntime.ts#L495
 
-The comments indicate this is not purposefully to prevent accidental access of a production resource.
+The comments indicate this is done purposefully to prevent accidental access of a production resource.
 
 

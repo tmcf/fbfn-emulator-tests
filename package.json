@@ -1,0 +1,12 @@
+{
+  "name": "fbfn-credentials",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+      "emulate": "firebase emulators:start --only hosting,functions",
+      "emulate_with_firestore": "firebase emulators:start --only hosting,functions,firestore",
+      "emulate_without_functions": "firebase emulators:start --only hosting,firestore"
+  },
+  "dependencies": {
+  }
+}

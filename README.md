@@ -1,4 +1,4 @@
-## functions emulator vs functions shell differences connecting to project firestore
+## functions emulator vs functions shell differences connecting to production firestore
 
 This issue concerns accessing the project's live firestore instance when testing local
 firestore cloud functions. Case #3 below with `firebase emulators:start` is the one that fails.

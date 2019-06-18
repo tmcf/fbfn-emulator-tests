@@ -1,7 +1,7 @@
 ## functions emulator vs functions shell differences connecting to project firestore
 
 This issue concerns accessing the project's live firestore instance when testing local
-firestore cloud functions. Case #3 below with firebase emulators:start is the one that fails.
+firestore cloud functions. Case #3 below with `firebase emulators:start` is the one that fails.
 
 (This is not about connecting to a local firestore emulator, that works ok if a Firestore
 instance is created directly and the admin.firestore() is not used.)

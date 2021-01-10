@@ -1,3 +1,7 @@
+## This issue has been resolved
+
+This firebase issue was resolved. This repo is now archived.
+
 ## functions emulator vs functions shell differences connecting to production firestore
 
 This issue concerns accessing the project's live firestore instance when testing local
